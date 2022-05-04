@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="O67-2E-5Ql">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Mondstadt View Controller-->
+        <scene sceneID="frx-VF-NhL">
+            <objects>
+                <viewController id="FeE-sc-mLg" customClass="MondstadtViewController" customModule="GenshinInfo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q9g-yt-98n">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="oEl-Wt-qwT">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="V40-id-oFo"/>
+                        <color key="backgroundColor" red="0.5318426047" green="0.82542686860000003" blue="0.55247033479999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="V40-id-oFo" firstAttribute="bottom" secondItem="oEl-Wt-qwT" secondAttribute="bottom" id="98E-Cf-wQl"/>
+                            <constraint firstItem="V40-id-oFo" firstAttribute="trailing" secondItem="oEl-Wt-qwT" secondAttribute="trailing" id="Jdp-kn-dB6"/>
+                            <constraint firstItem="oEl-Wt-qwT" firstAttribute="leading" secondItem="V40-id-oFo" secondAttribute="leading" id="lXe-m1-qd0"/>
+                            <constraint firstItem="oEl-Wt-qwT" firstAttribute="top" secondItem="Q9g-yt-98n" secondAttribute="top" constant="44" id="tE1-9p-tJa"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="Icon_Mondstadt" id="CXc-la-7PB">
+                        <inset key="imageInsets" minX="100" minY="200" maxX="100" maxY="190"/>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="tableView" destination="oEl-Wt-qwT" id="l5e-Pi-Tf2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Djk-p5-5O6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-310" y="71"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="p8H-zR-sKZ">
+            <objects>
+                <tabBarController id="O67-2E-5Ql" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="3vk-h6-QoF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="AYV-lm-p8v" kind="relationship" relationship="viewControllers" id="EUD-Fw-YCr"/>
+                        <segue destination="FeE-sc-mLg" kind="relationship" relationship="viewControllers" id="DXO-15-Upa"/>
+                        <segue destination="xBe-vH-cwu" kind="relationship" relationship="viewControllers" id="rFX-mR-wjG"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QzT-Q8-l5A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1201" y="-238"/>
+        </scene>
+        <!--Personagem-->
+        <scene sceneID="VEq-Pk-otT">
+            <objects>
+                <viewController id="AYV-lm-p8v" customClass="ViewController" customModule="GenshinInfo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7c9-Pb-vMF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="66" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="DE3-ma-uJ1">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cbg-Vu-i0j"/>
+                        <color key="backgroundColor" red="0.91629751930000003" green="0.64963339249999996" blue="0.32152739050000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="DE3-ma-uJ1" firstAttribute="leading" secondItem="cbg-Vu-i0j" secondAttribute="leading" id="467-Cg-wp4"/>
+                            <constraint firstItem="cbg-Vu-i0j" firstAttribute="bottom" secondItem="DE3-ma-uJ1" secondAttribute="bottom" id="4rJ-bC-2UG"/>
+                            <constraint firstItem="cbg-Vu-i0j" firstAttribute="trailing" secondItem="DE3-ma-uJ1" secondAttribute="trailing" id="AkA-B1-uZz"/>
+                            <constraint firstItem="DE3-ma-uJ1" firstAttribute="top" secondItem="cbg-Vu-i0j" secondAttribute="top" id="QPz-W7-agz"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" image="Icon_Liyue" id="fA6-tc-5Cd">
+                        <inset key="imageInsets" minX="100" minY="200" maxX="100" maxY="175"/>
+                    </tabBarItem>
+                    <navigationItem key="navigationItem" title="Personagem" id="Boj-xM-5SR"/>
+                    <connections>
+                        <outlet property="tableView" destination="DE3-ma-uJ1" id="5pp-2o-5dI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="61I-4e-lwf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-310.14492753623193" y="-591.29464285714278"/>
+        </scene>
+        <!--Mondstadt View Controller-->
+        <scene sceneID="JLE-8H-NOH">
+            <objects>
+                <viewController id="xBe-vH-cwu" customClass="MondstadtViewController" customModule="GenshinInfo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5S2-VY-VxV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="LPm-i2-Zem">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Jgf-1x-WBc"/>
+                        <color key="backgroundColor" red="0.5318426047" green="0.82542686860000003" blue="0.55247033479999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Jgf-1x-WBc" firstAttribute="bottom" secondItem="LPm-i2-Zem" secondAttribute="bottom" id="1LL-bL-ugn"/>
+                            <constraint firstItem="LPm-i2-Zem" firstAttribute="top" secondItem="5S2-VY-VxV" secondAttribute="top" constant="44" id="31K-ao-b88"/>
+                            <constraint firstItem="LPm-i2-Zem" firstAttribute="leading" secondItem="Jgf-1x-WBc" secondAttribute="leading" id="DxQ-nK-vnE"/>
+                            <constraint firstItem="Jgf-1x-WBc" firstAttribute="trailing" secondItem="LPm-i2-Zem" secondAttribute="trailing" id="F4p-my-2Ug"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="Icon_Mondstadt" id="cWN-fN-RUs">
+                        <inset key="imageInsets" minX="100" minY="200" maxX="100" maxY="190"/>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="tableView" destination="LPm-i2-Zem" id="B0u-o6-huw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OLy-kj-ohW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1201" y="484"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Icon_Liyue" width="256" height="256"/>
+        <image name="Icon_Mondstadt" width="256" height="256"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

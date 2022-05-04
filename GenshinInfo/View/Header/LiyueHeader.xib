@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad12_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" id="iN0-l3-epB" customClass="HeaderViewController" customModule="GenshinInfo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="210"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FRr-Yy-OyR">
+                    <rect key="frame" x="-393" y="0.0" width="1200" height="210"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Liyue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tcw-cx-Khv">
+                            <rect key="frame" x="423" y="40" width="85.5" height="41"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="34"/>
+                            </variation>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0n9-DB-QpU">
+                            <rect key="frame" x="423" y="93" width="354" height="193.5"/>
+                            <string key="text">A bountiful harbor that lies in the east of Teyvat. Mountains stand tall and proud alongside the stone forest, that, together with the open plains and lively rivers, make up Liyue's bountiful landscape, which shows its unique beauty through each of the four seasons. Just how many gifts from the Geo God lie in wait amongst the rocks of Liyue's mountains?</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            </variation>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.91629751930000003" green="0.64963339249999996" blue="0.32152739050000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstItem="tcw-cx-Khv" firstAttribute="top" secondItem="FRr-Yy-OyR" secondAttribute="top" constant="20" id="ZXf-ts-8vc">
+                            <variation key="heightClass=regular-widthClass=regular" constant="40"/>
+                        </constraint>
+                        <constraint firstItem="0n9-DB-QpU" firstAttribute="top" secondItem="tcw-cx-Khv" secondAttribute="bottom" constant="12" id="izt-46-9Zk"/>
+                        <constraint firstAttribute="width" constant="1200" id="jSg-De-UKR"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="tcw-cx-Khv" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="723-SE-her"/>
+                <constraint firstItem="0n9-DB-QpU" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="AyI-nd-Mwe"/>
+                <constraint firstItem="FRr-Yy-OyR" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="KJB-hN-ucF"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="FRr-Yy-OyR" secondAttribute="bottom" id="Plz-Y0-H8a"/>
+                <constraint firstItem="FRr-Yy-OyR" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="-24" id="Rao-sI-Spc"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="0n9-DB-QpU" secondAttribute="trailing" constant="30" id="SFF-ob-0ni"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="OrangeView" destination="FRr-Yy-OyR" id="jht-5R-3EN"/>
+            </connections>
+            <point key="canvasLocation" x="137.109375" y="77.306002928257683"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

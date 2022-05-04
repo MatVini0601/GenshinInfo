@@ -1,0 +1,185 @@
+{
+    
+    "liyue":[
+        {
+            "id": 0,
+            "nome":"Beidou",
+            "visao":"Electro",
+            "nacao":"Liyue",
+            "sobre":"Capitã da Crux, possui uma grande reputação no Porto de Liyue. Há quem diga que ela é capaz de abrir montanhas e mares, outros dizem que ela causa trovões com sua espada, e outros dizem que até mesmo os terríveis monstros do submundo também não são páreos para Beidou. Para aqueles que não são de Liyue, isso pode soar como uma piada, mas aqueles que já navegaram com ela, podem confirmar. 'Independente de quais bestas do mar podem haver, Beidou com certeza irá parti-los todos em dois'.",
+            "constelacao": "Victor Mare",
+            "tier":"★★★★",
+            "asset":"beidou",
+            "arma":"Espadão",
+            "armaAsset":"Icon_Claymore"
+        },
+        {
+            "id": 1,
+            "nome":"Chongyun",
+            "visao":"Cryo",
+            "nacao":"Liyue",
+            "sobre": "Vive em Liyue um exorcista chamado Chongyun que está sempre afugentando os espíritos para lá e para cá. Herdeiro de uma família de exorcistas, possui uma habilidade sobrenatural desde pequeno. No entanto, ele não aprendeu essa habilidade com ninguém, mas era inato para ele: seu corpo com Psíquico Yang Puro.",
+            "constelacao": "Nubis Caesor",
+            "tier":"★★★★",
+            "asset":"chongyun",
+            "arma":"Espadão",
+            "armaAsset":"Icon_Claymore"
+        },
+        {
+            "id": 2,
+            "nome":"Ganyu",
+            "visao":"Cryo",
+            "nacao":"Liyue",
+            "sobre": "Todo mundo acredita que o Qilin é um símbolo de uma sociedade pacífica, mas ninguém entende a solidão de uma Adeptus no mundo mortal.",
+            "constelacao": "Sinae Unicornis",
+            "tier":"★★★★★",
+            "asset":"ganyu",
+            "arma":"Arco",
+            "armaAsset":"Icon_Bow"
+        },
+        {
+            "id": 3,
+            "nome":"Hu Tao",
+            "visao":"Pyro",
+            "nacao":"Liyue",
+            "sobre": "Ela é uma menina peculiar e imprevisível, mas você nunca pode subestimá-la! No entanto, se você gosta de surpresas, você tem que conhecê-la.",
+            "constelacao": "Papilio Charontis",
+            "tier":"★★★★★",
+            "asset":"hutao",
+            "arma":"Lança",
+            "armaAsset":"Icon_Polearm"
+        },
+        {
+            "id": 4,
+            "nome":"Keqing",
+            "visao":"Electro",
+            "nacao":"Liyue",
+            "sobre": "A Yuheng dos Qixing de Liyue. Tem muito a dizer sobre Rex Lapis governando Liyue com apenas uma palavra, mas na verdade, esse Deus admira muito esses céticos. Ela acredita firmemente que o futuro da humanidade deve ser determinado pelos próprios humanos, e que eles podem fazer melhor do que os Arcontes e Adepti fizeram por eles. Para provar isso, ela trabalha mais do que qualquer pessoa.",
+            "constelacao": "Trulla Cementarii",
+            "tier":"★★★★★",
+            "asset":"keqing",
+            "arma":"Espada",
+            "armaAsset":"Icon_Sword"
+        },
+        {
+            "id": 5,
+            "nome":"Ningguang",
+            "visao":"Geo",
+            "nacao":"Liyue",
+            "sobre": "Ela mora num palácio flutuante, cheia de mistérios e rumores, mas sempre está com um sorriso elegante e intrigante. Como um Tiquan de Qixing de Liyue, ela não apenas simboliza poder e a lei, mas também representa riqueza e inteligência.",
+            "constelacao": "Opus Aequilibrium",
+            "tier":"★★★★",
+            "asset":"ningguang",
+            "arma":"Catalizador",
+            "armaAsset":"Icon_Catalyst"
+        },
+        {
+            "id": 6,
+            "nome":"Qiqi",
+            "visao":"Cryo",
+            "nacao":"Liyue",
+            "sobre": "Um aprendiz e coletora de ervas do Chalé de Bubu. Devido ao destino divino, ela possui um corpo que nunca morre, e precisa dar ordens a si mesma para poder agir. A Qiqi tem uma memória muito fraca, portanto, ela sempre anda com um caderno de agenda. Nos piores dias, ela até se esquecia de verificar a agenda...",
+            "constelacao": "Pristina Nola",
+            "tier":"★★★★★",
+            "asset":"qiqi",
+            "arma":"Espada",
+            "armaAsset":"Icon_Sword"
+        },
+        {
+            "id": 7,
+            "nome":"Shenhe",
+            "visao":"Cryo",
+            "nacao":"Liyue",
+            "sobre": "Tendo viajado pelo mundo, as pessoas que receberam minha tutela são inúmeras, mas entre elas, a Shenhe é a mais autêntica comigo. Se ela não fosse uma mortal, gostaria até de mantê-la ao meu lado",
+            "constelacao": "Crista Doloris",
+            "tier":"★★★★★",
+            "asset":"shenhe",
+            "arma":"Lança",
+            "armaAsset":"Icon_Polearm"
+        },
+        {
+            "id": 8,
+            "nome":"Xiangling",
+            "visao":"Pyro",
+            "nacao":"Liyue",
+            "sobre": "A mais nova chef do Restaurante Wanmin é apaixonada pela culinária. Seus pratos mais populares são os pratos picantes. Apesar de jovem, suas habilidades culinárias são excelentes, sendo bastante famosa no Penhasco Chihu. Se ela chamar você para desgustar seus pratos novos, não se preocupe, você com certeza não irá se decepcionar!",
+            "constelacao": "Trulla",
+            "tier":"★★★★",
+            "asset":"xiangling",
+            "arma":"Lança",
+            "armaAsset":"Icon_Polearm"
+        },
+        {
+            "id": 9,
+            "nome":"Xiao",
+            "visao":"Anemo",
+            "nacao":"Liyue",
+            "sobre": "Um dos 'Adepti Poderosos e Iluminados' que guardam Liyue. Também chamado de 'Guardião Yaksha'. Apesar de sua aparência de um homem jovem, algumas de suas lendas já aparecem em livros antigos de milênios atrás. Ele gosta muito de um prato do Albergue Wangshu, o Tofu de Amêndoas. A razão para isso, é que para ele, esse prato tem um sabor dos 'sonhos' que ele costumava ter.",
+            "constelacao": "Alatus Nemeseos",
+            "tier":"★★★★★",
+            "asset":"xiao",
+            "arma":"Lança",
+            "armaAsset":"Icon_Polearm"
+        },
+        {
+            "id": 10,
+            "nome":"Xingqiu",
+            "visao":"Hydro",
+            "nacao":"Liyue",
+            "sobre": "O segundo filho do dono da Associação de Comerciantes de Feiyun em Liyue é conhecido por sua diligência, trabalho duro e cortesia desde jovem.",
+            "constelacao": "Fabulae Textile",
+            "tier":"★★★★",
+            "asset":"xingqiu",
+            "arma":"Espada",
+            "armaAsset":"Icon_Sword"
+        },
+        {
+            "id": 11,
+            "nome":"Xinyan",
+            "visao":"Pyro",
+            "nacao":"Liyue",
+            "sobre": "No Porto de Liyue, o rock é uma arte totalmente nova, e a Xinyan é exatamente a pioneira dessa arte. Ela usa a música e paixão para demonstrar a sua revolta e para acordar todas as almas dormidas no mundo. Se tiver oportunidade, não perca os seus espectátulos.",
+            "constelacao": "Fila Ignium",
+            "tier":"★★★★",
+            "asset":"xinyan",
+            "arma":"Espadão",
+            "armaAsset":"Icon_Claymore"
+        },
+        {
+            "id": 12,
+            "nome":"Yanfei",
+            "visao":"Pyro",
+            "nacao":"Liyue",
+            "sobre": "As leis são como pedras fundamentais para a prosperidade de Liyue, que precisa ser refinadas de forma constante para poder manter sempre a sua perfeição. Yanfei tem se esforçado bastante na minha área, para ser sincera, ela realmente foi uma grande ajuda em encontrar as lacunas das leis atuais a serem preenchidas",
+            "constelacao": "Bestia Iustitia",
+            "tier":"★★★★",
+            "asset":"yanfei",
+            "arma":"Catalizador",
+            "armaAsset":"Icon_Catalyst"
+        },
+        {
+            "id": 13,
+            "nome":"Yun Jin",
+            "visao":"Geo",
+            "nacao":"Liyue",
+            "sobre": "Basta a Yunjin fazer uma apresentaçãozinha na nossa Casa de Chá que ei! Iremos ganhar Mora suficiente para ficar um mês sem trabalhar.",
+            "constelacao": "Opera Grandis",
+            "tier":"★★★★",
+            "asset":"yunjin",
+            "arma":"Lança",
+            "armaAsset":"Icon_Polearm"
+        },
+        {
+            "id": 14,
+            "nome":"Zhongli",
+            "visao":"Geo",
+            "nacao":"Liyue",
+            "sobre": "Um consultor misterioso da Funerária de Wangsheng, que possui uma aparência bonita, um comportamento bem-educado e a sabedoria além do alcance de qualquer pessoa. Mesmo que não se sabe de onde ele vem, ele conhece tão bem as regras locais. Como o consultor da Funerária de Wangsheng, ele pode executar todos os tipos de Rituais.",
+            "constelacao": "Lapis Dei",
+            "tier":"★★★★★",
+            "asset":"zhongli",
+            "arma":"Lança",
+            "armaAsset":"Icon_Polearm"
+        }
+    ]
+}

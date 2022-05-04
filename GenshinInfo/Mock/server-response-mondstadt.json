@@ -1,0 +1,166 @@
+{
+    "mondstadt":[
+        {
+            "id": 0,
+            "nome":"Albedo",
+            "visao":"Geo",
+            "nacao":"Mondstadt",
+            "asset":"albedo",
+            "arma":"Espada",
+            "armaAsset":"Icon_Sword"
+        },
+        {
+            "id": 1,
+            "nome":"Amber",
+            "visao":"Pyro",
+            "nacao":"Mondstadt",
+            "asset":"amber",
+            "arma":"Arco",
+            "armaAsset":"Icon_Bow"
+        },
+        {
+            "id": 2,
+            "nome":"Barbara",
+            "visao":"Hydro",
+            "nacao":"Mondstadt",
+            "asset":"barbara",
+            "arma":"Catalizador",
+            "armaAsset":"Icon_Catalyst"
+        },
+        {
+            "id": 3,
+            "nome":"Bennett",
+            "visao":"Pyro",
+            "nacao":"Mondstadt",
+            "asset":"bennett",
+            "arma":"Espada",
+            "armaAsset":"Icon_Sword"
+        },
+        {
+            "id": 4,
+            "nome":"Diluc",
+            "visao":"Pyro",
+            "nacao":"Mondstadt",
+            "asset":"diluc",
+            "arma":"Espadão",
+            "armaAsset":"Icon_Claymore"
+        },
+        {
+            "id": 5,
+            "nome":"Diona",
+            "visao":"Cryo",
+            "nacao":"Mondstadt",
+            "asset":"diona",
+            "arma":"Arco",
+            "armaAsset":"Icon_Bow"
+        },
+        {
+            "id": 6,
+            "nome":"Eula",
+            "visao":"Cryo",
+            "nacao":"Mondstadt",
+            "asset":"eula",
+            "arma":"Espadão",
+            "armaAsset":"Icon_Claymore"
+        },
+        {
+            "id": 7,
+            "nome":"Fischl",
+            "visao":"Electro",
+            "nacao":"Mondstadt",
+            "asset":"fischl",
+            "arma":"Arco",
+            "armaAsset":"Icon_Bow"
+        },
+        {
+            "id": 8,
+            "nome":"Jean",
+            "visao":"Anemo",
+            "nacao":"Mondstadt",
+            "asset":"jean",
+            "arma":"Espada",
+            "armaAsset":"Icon_Sword"
+        },
+        {
+            "id": 9,
+            "nome":"Kaeya",
+            "visao":"Cryo",
+            "nacao":"Mondstadt",
+            "asset":"kaeya",
+            "arma":"Espada",
+            "armaAsset":"Icon_Sword"
+        },
+        {
+            "id": 10,
+            "nome":"Klee",
+            "visao":"Pyro",
+            "nacao":"Mondstadt",
+            "asset":"klee",
+            "arma":"Catalizador",
+            "armaAsset":"Icon_Catalyst"
+        },
+        {
+            "id": 11,
+            "nome":"Lisa",
+            "visao":"Electro",
+            "nacao":"Mondstadt",
+            "asset":"lisa",
+            "arma":"Catalizador",
+            "armaAsset":"Icon_Catalyst"
+        },
+        {
+            "id": 12,
+            "nome":"Mona",
+            "visao":"Hydro",
+            "nacao":"Mondstadt",
+            "asset":"mona",
+            "arma":"Catalizador",
+            "armaAsset":"Icon_Catalyst"
+        },
+        {
+            "id": 13,
+            "nome":"Noelle",
+            "visao":"Geo",
+            "nacao":"Mondstadt",
+            "asset":"noelle",
+            "arma":"Espadão",
+            "armaAsset":"Icon_Claymore"
+        },
+        {
+            "id": 14,
+            "nome":"Razor",
+            "visao":"Electro",
+            "nacao":"Mondstadt",
+            "asset":"razor",
+            "arma":"Espadão",
+            "armaAsset":"Icon_Claymore"
+        },
+        {
+            "id": 15,
+            "nome":"Rosaria",
+            "visao":"Cryo",
+            "nacao":"Mondstadt",
+            "asset":"rosaria",
+            "arma":"Lança",
+            "armaAsset":"Icon_Polearm"
+        },
+        {
+            "id": 16,
+            "nome":"Sucrose",
+            "visao":"Anemo",
+            "nacao":"Mondstadt",
+            "asset":"sucrose",
+            "arma":"Catalizador",
+            "armaAsset":"Icon_Catalyst"
+        },
+        {
+            "id": 17,
+            "nome":"Venti",
+            "visao":"Anemo",
+            "nacao":"Mondstadt",
+            "asset":"venti",
+            "arma":"Arco",
+            "armaAsset":"Icon_Bow"
+        },
+    ]
+}

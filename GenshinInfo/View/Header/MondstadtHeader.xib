@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MondstadtHeaderViewController" customModule="GenshinInfo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="210"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nk3-bK-QC0">
+                    <rect key="frame" x="-393" y="0.0" width="1200" height="210"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mondstadt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gxG-i3-rSS">
+                            <rect key="frame" x="423" y="44" width="143" height="33.666666666666657"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="34"/>
+                            </variation>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IQy-ZT-d5t">
+                            <rect key="frame" x="423" y="89.666666666666686" width="354" height="100.33333333333331"/>
+                            <string key="text">A city of freedom that lies in the northeast of Teyvat. From amongst mountains and wide-open plains, carefree breezes carry the scent of dandelions — a gift from the Anemo God, Barbatos — across Cider Lake to Mondstadt, which sits on an island in the middle of the lake.</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            </variation>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.53184260466934352" green="0.825426868556701" blue="0.55247033479134355" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstItem="IQy-ZT-d5t" firstAttribute="top" secondItem="gxG-i3-rSS" secondAttribute="bottom" constant="12" id="8Sc-rn-a0V"/>
+                        <constraint firstAttribute="width" constant="1200" id="Eaa-0R-HxD"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="nk3-bK-QC0" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="77t-Mb-6JM"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="nk3-bK-QC0" secondAttribute="bottom" id="9jU-eh-GIE"/>
+                <constraint firstItem="IQy-ZT-d5t" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="GOg-HU-48q"/>
+                <constraint firstItem="gxG-i3-rSS" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="V7M-U4-BMr"/>
+                <constraint firstItem="nk3-bK-QC0" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="-44" id="VXs-eT-XfV"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="IQy-ZT-d5t" secondAttribute="trailing" constant="30" id="Z5P-lA-WP7"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="top" secondItem="gxG-i3-rSS" secondAttribute="top" id="dli-OQ-1sH"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="greenView" destination="nk3-bK-QC0" id="rmu-UR-j2J"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="96"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
